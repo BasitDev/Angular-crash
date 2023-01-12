@@ -10,4 +10,8 @@ export class HeaderComponent {
   constructor() {}
 
   ngOnInit(): void {}
+
+  toggleAddTask() {
+    console.log('Iam clicked');
+  }
 }
